@@ -1,4 +1,4 @@
-import hero from './../assets/hero.jpg'
+import hero from './../../public/assets/hero.jpg'
 
 export default function HeroSection() {
   return (
