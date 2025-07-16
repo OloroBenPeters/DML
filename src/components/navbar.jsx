@@ -12,12 +12,19 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-16">
-          {['Home', 'Products', 'Services', 'Members', 'Contacts'].map(link => (
+          {[
+            { name: 'Home', href: '#home' },
+            { name: 'Products', href: '#products' },
+            { name: 'Services', href: '#services' },
+            { name: 'Members', href: '#members' },
+            { name: 'Contacts', href: '#contact' },
+          
+          ].map(link => (
             <li
-              key={link}
+              key={link.name}
               className="relative cursor-pointer after:block after:h-0.5 after:bg-blue-500 after:scale-x-0 after:transition-transform after:origin-left hover:after:scale-x-100"
             >
-              {link}
+              <a href={link.href}>{link.name}</a>
             </li>
           ))}
         </ul>
@@ -31,13 +38,20 @@ export default function Navbar() {
       {/* Mobile menu dropdown */}
       {open && (
         <div className="md:hidden flex flex-col items-center gap-4 pb-4">
-          {['Home', 'Products', 'Services', 'Members', 'Contacts'].map(item => (
-            <div
-              key={item}
-              className="w-full text-center py-2 hover:bg-gray-700 transition rounded"
+          {[
+            { name: 'Home', href: '#home' },
+            { name: 'Products', href: '#products' },
+            { name: 'Services', href: '#services' },
+            { name: 'Members', href: '#members' },
+            { name: 'Contacts', href: '#contact' },
+          ].map(item => (
+            <a href={item.href}
+            key={item.name}
+            onClick={() => setOpen(false)}
+            className="w-full text-center py-2 hover:bg-gray-700 transition rounded"
             >
-              {item}
-            </div>
+            {item.name}
+            </a>
           ))}
         </div>
       )}

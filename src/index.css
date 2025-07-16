@@ -33,3 +33,8 @@
   0%, 100% { border-color: transparent }
   50% { border-color: #38bdf8; }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaLinkedin, FaGithub
 
 export default function ContactSection() {
     return (
-        <section className="py-16 px-8 md:px-16 bg-gray-900 text-white">
+        <section id="contact" className="py-16 px-8 md:px-16 bg-gray-900 text-white">
             {/* Heading */}
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold">Get in Touch</h2>

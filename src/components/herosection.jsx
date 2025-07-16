@@ -1,11 +1,11 @@
-import React from 'react'; // It's good practice to import React if you're using JSX
+import React from 'react'; 
 import hero1 from './../../public/assets/hero.jpg';
 import hero2 from './../../public/assets/hero2.png';
 import hero3 from './../../public/assets/hero.jpg';
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col-reverse gap-12 md:flex-row items-center px-6 md:px-16 py-16 h-screen overflow-hidden">
+    <section id='home' className="flex flex-col-reverse gap-12 md:flex-row items-center px-6 md:px-16 py-16 h-screen overflow-hidden">
       {/* Text Content */}
       <div className="md:w-1/2 space-y-8 text-center md:text-left">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight text-white">
@@ -19,9 +19,12 @@ export default function HeroSection() {
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
             More Details
           </button>
-          <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
-            Contact Us
-          </button>
+          <a href="#contact">
+              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
+              Contact Us
+            </button>
+          </a>
+
         </div>
       </div>
 
@@ -38,13 +41,13 @@ export default function HeroSection() {
           <img
             src={hero2}
             alt="Web and mobile development"
-            className="absolute top-10 left-10 w-full h-full object-cover rounded-2xl shadow-2xl transform rotate-[4deg] hover:rotate-[7deg] hover:scale-105 transition duration-700 ease-in-out z-20"
+            className="absolute top-10 left-10 w-full h-full object-cover rounded-2xl shadow-2xl transform rotate-[4deg] hover:rotate-[7deg] hover:scale-105 transition duration-700 ease-in-out z-20 hover:z-30"
           />
           {/* Bottom image */}
           <img
             src={hero3}
             alt="Cloud technology expertise"
-            className="absolute top-20 left-20 w-full h-full object-cover rounded-2xl shadow-2xl transform rotate-[-3deg] hover:rotate-[-1deg] hover:scale-105 transition duration-700 ease-in-out z-10"
+            className="absolute top-20 left-20 w-full h-full object-cover rounded-2xl shadow-2xl transform rotate-[-3deg] hover:rotate-[-1deg] hover:scale-105 transition duration-700 ease-in-out z-10 hover:z-30"
           />
         </div>
       </div>

@@ -56,7 +56,7 @@ export default function ServicesSection() {
   }, [currentIndex]);
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section id='services' className="py-16 bg-gray-900 text-white">
       <div className="text-center mb-12 px-4">
         <h2 className="text-3xl font-bold">SERVICES</h2>
         <p className="text-gray-400 mt-2">Discover our services</p>
