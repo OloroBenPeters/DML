@@ -1,7 +1,7 @@
 import React from 'react'; 
-import hero1 from './../../public/assets/hero.jpg';
-import hero2 from './../../public/assets/hero2.png';
-import hero3 from './../../public/assets/hero.jpg';
+import hero1 from './../assets/hero.jpg';
+import hero2 from './../assets/hero2.png';
+import hero3 from './../assets/hero.jpg';
 
 export default function HeroSection() {
   return (

@@ -1,4 +1,4 @@
-import about from './../../public/assets/about.jpg'
+import about from './../assets/about.jpg'
 
 export default function AboutSection() {
   return (

@@ -1,7 +1,7 @@
 import TestimonialSectionCard from "./testimonialsectioncard"
-import mobiledev from './../../public/assets/mobiledev.jpg'
-import webdev from './../../public/assets/webdev.jpg'
-import datascience from './../../public/assets/datascience.jpg'
+import mobiledev from './../assets/mobiledev.jpg'
+import webdev from './../assets/webdev.jpg'
+import datascience from './../assets/datascience.jpg'
 
 
 export default function TestimonialSection() {
