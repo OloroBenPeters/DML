@@ -5,7 +5,6 @@ import TestimonialSection from './components/testimonialsection'
 import ServicesSection from './components/servicessection'
 import ContactSection from './components/contactsection'
 import AboutSection from './components/aboutsection'
-import GallerySection from './components/gallerysection'
 import Footer from './components/footer'
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <AboutSection />
       <TestimonialSection />
       <ServicesSection />
-      {/* <GallerySection /> */}
       <ContactSection />
       <Footer />
     </div>
