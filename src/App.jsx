@@ -7,6 +7,7 @@ import ContactSection from './components/contactsection'
 import AboutSection from './components/aboutsection'
 import Footer from './components/footer'
 import GallerySection from './components/gallerysection'
+import TeamSection from './components/teamsection'
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutSection />
-      <TestimonialSection />
       <ServicesSection />
+      <TestimonialSection />
+      <TeamSection />
       <GallerySection />
       <ContactSection />
       <Footer />

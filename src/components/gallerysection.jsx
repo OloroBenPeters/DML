@@ -1,4 +1,4 @@
-import img1 from './../assets/webdev.jpg';
+import img1 from './../assets/office1.jpg';
 import img2 from './../assets/webdev.jpg';
 import img3 from './../assets/webdev.jpg';
 import img4 from './../assets/webdev.jpg';
@@ -13,7 +13,7 @@ export default function GallerySection() {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
   return (
-    <section className="py-16 px-6 md:px-16 bg-gray-900 text-white">
+    <section id='gallery' className="py-16 px-6 md:px-16 bg-gray-900 text-white">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">Gallery</h2>
         <p className="text-gray-400 mt-2">A glimpse into our work and moments</p>
