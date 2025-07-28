@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import LogoImage from '../assets/logo.png'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -8,7 +9,9 @@ export default function Navbar() {
     <nav className="w-full bg-gray-900/80 backdrop-blur-md text-white sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <div className="text-2xl font-extrabold tracking-wide">DML</div>
+        <div className="w-15 h-15 font-extrabold tracking-wide">
+          <img src={LogoImage} alt="Logo" />
+        </div>
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-16">
