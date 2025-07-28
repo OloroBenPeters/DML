@@ -17,11 +17,11 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-16">
           {[
             { name: 'Home', href: '#home' },
-            { name: 'Products', href: '#products' },
+            { name: 'About DML', href: '#about' },
             { name: 'Services', href: '#services' },
-            { name: 'Members', href: '#members' },
-            { name: 'Contacts', href: '#contact' },
-          
+            { name: 'The Team', href: '#team' },
+            { name: 'Gallery', href: '#gallery' },
+            { name: 'Contact Us', href: '#contact' },
           ].map(link => (
             <li
               key={link.name}
@@ -43,10 +43,11 @@ export default function Navbar() {
         <div className="md:hidden flex flex-col items-center gap-4 pb-4">
           {[
             { name: 'Home', href: '#home' },
-            { name: 'Products', href: '#products' },
+            { name: 'About DML', href: '#about' },
             { name: 'Services', href: '#services' },
-            { name: 'Members', href: '#members' },
-            { name: 'Contacts', href: '#contact' },
+            { name: 'The Team', href: '#team' },
+            { name: 'Gallery', href: '#gallery' },
+            { name: 'Contacts Us', href: '#contact' },
           ].map(item => (
             <a href={item.href}
             key={item.name}

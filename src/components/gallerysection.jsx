@@ -1,19 +1,19 @@
-import img1 from './../../public/assets/gallery.png';
-import img2 from './../../public/assets/gallery.png';
-import img3 from './../../public/assets/gallery.png';
-import img4 from './../../public/assets/gallery.png';
-import img5 from './../../public/assets/gallery.png';
-import img6 from './../../public/assets/gallery.png';
-import img7 from './../../public/assets/gallery.png';
-import img8 from './../../public/assets/gallery.png';
-import img9 from './../../public/assets/gallery.png';
-import img10 from './../../public/assets/gallery.png';
+import img1 from './../assets/office1.jpg';
+import img2 from './../assets/webdev.jpg';
+import img3 from './../assets/webdev.jpg';
+import img4 from './../assets/webdev.jpg';
+import img5 from './../assets/webdev.jpg';
+import img6 from './../assets/webdev.jpg';
+import img7 from './../assets/webdev.jpg';
+import img8 from './../assets/webdev.jpg';
+import img9 from './../assets/webdev.jpg';
+import img10 from './../assets/webdev.jpg';
 
 export default function GallerySection() {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
   return (
-    <section className="py-16 px-6 md:px-16 bg-gray-900 text-white">
+    <section id='gallery' className="py-16 px-6 md:px-16 bg-gray-900 text-white">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">Gallery</h2>
         <p className="text-gray-400 mt-2">A glimpse into our work and moments</p>
@@ -23,11 +23,9 @@ export default function GallerySection() {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`
-              overflow-hidden rounded-2xl shadow-lg 
-              ${index % 3 === 0 ? 'row-span-2' : ''}
-              ${index % 4 === 0 ? 'col-span-2' : ''}
-            `}
+            className={`overflow-hidden rounded-2xl shadow-lg 
+              ${index % 3 === 0 ? 'row-span-2' : ''} 
+              ${index % 4 === 0 ? 'col-span-2' : ''}`}
           >
             <img
               src={image}

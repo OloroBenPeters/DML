@@ -1,8 +1,8 @@
-import about from './../../public/assets/about.jpg'
+import about from './../assets/about1.jpg'
 
 export default function AboutSection() {
   return (
-    <section className="flex flex-col-reverse gap-12 md:flex-row items-center px-10 md:px-16 py-12">
+    <section id='about' className="flex flex-col-reverse gap-12 md:flex-row items-center px-10 md:px-16 py-12">
 
       <div className="md:w-1/2 relative">
         <img src={about} alt="" className="rounded-lg shadow-2xl w-full h-auto object-cover" />

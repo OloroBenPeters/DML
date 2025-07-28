@@ -1,6 +1,6 @@
-import webdev        from './../../public/assets/webdev.jpg';
-import mobiledev     from './../../public/assets/mobiledev.jpg';
-import datascience   from './../../public/assets/datascience.jpg';
+import webdev        from './../assets/webdev.jpg';
+import mobiledev     from './../assets/mobiledev.jpg';
+import datascience   from './../assets/datascience.jpg';
 import ServicesSectionCard from './servicessectioncard';
 import { useState, useRef, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
