@@ -26,9 +26,9 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li>Email: <a href="mailto:info@dml.com" className="hover:text-white">info@dml.com</a></li>
-            <li>Phone: <a href="tel:+2348000000000" className="hover:text-white">+234 800 000 0000</a></li>
-            <li>Address: 123 DML Street, Lagos, Nigeria</li>
+            <li>Email: <a href="mailto:info@dml.com" className="hover:text-white">dmltechnologieslagos@gmail.com</a></li>
+            <li>Phone: <a href="tel:+2348065280371" className="hover:text-white">+234 806 528 0371</a></li>
+            <li>Address: 106 Oshodi-Apapa Express Way, Cele Bus Stop, Lagos</li>
           </ul>
         </div>
       </div>

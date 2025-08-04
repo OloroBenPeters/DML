@@ -18,33 +18,33 @@ export default function ContactSection() {
                         <FaMapMarkerAlt size={24} className="mt-1 text-cyan-400" />
                         <div>
                             <h3 className="text-lg font-semibold">Our Office</h3>
-                            <p className="text-gray-400">Cele/Ijesha Link Bridge, Isolo, Lagos State.</p>
+                            <p className="text-gray-400">106 Oshodi-Apapa Express Way, Cele Bus Stop, Lagos</p>
                         </div>
                     </div>
                     <div className="flex items-start space-x-4">
                         <FaPhoneAlt size={24} className="mt-1 text-cyan-400" />
                         <div>
                             <h3 className="text-lg font-semibold">Call Us</h3>
-                            <p className="text-gray-400">+234 123 4567</p>
+                            <p className="text-gray-400">+234 806 528 0371</p>
                         </div>
                     </div>
                     <div className="flex items-start space-x-4">
                         <FaEnvelope size={24} className="mt-1 text-cyan-400" />
                         <div>
                             <h3 className="text-lg font-semibold">Email Us</h3>
-                            <p className="text-gray-400">dml@gmail.com</p>
+                            <p className="text-gray-400">dmltechnologieslagos@gmail.com</p>
                         </div>
                     </div>
 
                     {/* Social Icons */}
                     <div className="flex space-x-6 mt-4">
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
                             <FaTwitter size={24} />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
                             <FaLinkedin size={24} />
                         </a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-500">
                             <FaGithub size={24} />
                         </a>
                     </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { saveForm } from "../firebase/config";
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -18,7 +19,8 @@ export default function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         // Handle form submission logic here
-        console.log("Form submitted:", formData);
+        saveForm(formData);
+
         // Reset form data after submission
         setFormData({
             name: "",
@@ -28,7 +30,7 @@ export default function ContactForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="space-y-6 bg-gray-800 p-8 rounded-2xl shadow-lg">
+        <form onSubmit={handleSubmit} action="" className="space-y-6 bg-gray-800 p-8 rounded-2xl shadow-lg">
             <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">
                     Name<span className="text-cyan-400">*</span>
