@@ -1,4 +1,4 @@
-export default function TeamCard({ image, name, description, isActive }) {
+export default function TeamCard({ image, name, description}) {
   
 
   return (

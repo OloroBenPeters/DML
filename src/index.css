@@ -38,3 +38,23 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(/src/assets//font/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/src/assets/font/Roboto/static/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/src/assets/font/Montserrat/static/Montserrat-Regular.ttf) format('truetype');
+  src: url(/src/assets/font/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+  font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
