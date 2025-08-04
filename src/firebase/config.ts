@@ -4,7 +4,8 @@ import { getDatabase, ref, push } from "firebase/database";
 import { ContactForm } from "../types/contact";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  databaseURL: "https://contact-form-ae9f8-default-rtdb.europe-west1.firebasedatabase.app/"
+  // databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL
+  databaseURL: "https://contact-form-ae9f8-default-rtdb.europe-west1.firebasedatabase.app/",
 };
 
 // Initialize Firebase
