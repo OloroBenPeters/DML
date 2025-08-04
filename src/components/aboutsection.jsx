@@ -16,7 +16,7 @@ export default function AboutSection() {
         <p className="text-gray-300 leading-relaxed mb-8">
               DML Technologies is more than just a company; it's a movement. We are dedicated to discovering and nurturing talent across Africa, providing the tools and platforms necessary for a new generation of innovators to build their dreams and shape the future. Our mission is to bridge the gap between potential and opportunity.
         </p>
-        <button className="bg-white text-gray-900 font-bold py-3 px-8 rounded-md hover:bg-red-500 hover:text-white transition-all duration-300">
+        <button className="bg-white text-gray-900 font-bold py-3 px-6 rounded-md hover:bg-red-500 hover:text-white transition-all duration-300">
               Learn More
         </button>
       </div>

@@ -9,8 +9,8 @@ export default function Navbar() {
     <nav className="w-full bg-gray-900/80 backdrop-blur-md text-white sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <div className="w-15 h-15 font-extrabold tracking-wide">
-          <img src={LogoImage} alt="Logo" />
+        <div className="w-18 h-18 font-extrabold tracking-wide">
+          <img src={LogoImage} alt="Logo" className="w-full h-full object-contain" />
         </div>
 
         {/* Desktop links */}

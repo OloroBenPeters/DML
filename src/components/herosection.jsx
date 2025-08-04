@@ -15,9 +15,9 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
 
-      <div className="relative z-10 flex flex-col-reverse gap-12 md:flex-row items-center px-6 md:px-16 py-16 h-full">
+      <div className="relative z-10 flex gap-12 md:flex-row justify-between md:items-center px-6 md:px-16 py-0 h-full">
         {/* Text Content */}
-        <div className="w-full md:w-1/2 space-y-8 text-center md:text-left">
+        <div className="w-full md:w-1/2 space-y-8 text-center md:text-left pt-40">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight">
             DML Technologies
           </h1>
@@ -25,12 +25,12 @@ export default function HeroSection() {
             Empowering your business with innovative software solutions. We specialize in web, mobile, and cloud technologies to help you grow, streamline operations, and achieve digital excellence.
           </p>
 
-          <div className="flex justify-center md:justify-start space-x-4 pt-4">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
+          <div className="flex justify-center md:justify-start space-x-8 pt-0">
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
               More Details
             </button>
             <a href="#contact">
-              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
+              <button className="border-2 border-blue-600 text-base text-blue-400 md:text-blue-600 px-6 py-3 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
                 Contact Us
               </button>
             </a>
